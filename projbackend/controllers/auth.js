@@ -70,6 +70,11 @@ exports.signin = (req, res) => {
   });
 };
 
+
+
+
+
+
 //signout
 exports.signout = (req, res) => {
   res.clearCookie("token");
